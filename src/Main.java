@@ -41,10 +41,10 @@ public class Main {
 
         System.out.println("----------------");
         // Задание 5
-        int childAge = 9;
+        int childAge = 5;
         if (childAge < 5) {
             System.out.println("Если возраст ребенка равен " + childAge + ", то ему нельзя кататься на аттракционе");
-        } else if (childAge > 5 && childAge < 14) {
+        } else if (childAge >= 5 && childAge < 14) {
             System.out.println("Если возраст ребенка равен " + childAge + ", то ему можно кататься на аттракционе в сопровождении взрослого");
         } else {
             System.out.println("Если возраст ребенка равен " + childAge + ", то ему можно кататься на аттракционе без сопровождения взрослого");
@@ -66,9 +66,9 @@ public class Main {
         int one = 50;
         int two = 60;
         int three = 30;
-        if (one > two & one > three) {
+        if (one > two && one > three) {
             System.out.println(one + " - большее число");
-        } else if (two > one & two > three) {
+        } else if (two > one && two > three) {
             System.out.println(two + " - большее число");
         } else {
             System.out.println(three + " - большее число");
